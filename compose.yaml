@@ -1,0 +1,9 @@
+
+
+services:
+  diagnostic-app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: diagnostic-app:latest 
+    command: ['help']
