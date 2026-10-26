@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "CLI $1"
 case "$1" in 
      help)
